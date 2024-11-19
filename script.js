@@ -12,6 +12,7 @@ function togglePlay() {
 circlePlayButton.addEventListener("click", togglePlay);
 video.addEventListener("playing", function () {
     circlePlayButton.style.opacity = 0;
+    screen.orientation.lock("landscape");
 });
 video.addEventListener("pause", function () {
     circlePlayButton.style.opacity = 1;
