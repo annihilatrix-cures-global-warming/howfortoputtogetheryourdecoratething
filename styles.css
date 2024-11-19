@@ -8,7 +8,6 @@ body {
     position: relative;
     right: 0;
     bottom: 0;
-    min-width: 100%;
     object-fit: scale-down;
 }
 
@@ -31,7 +30,7 @@ body {
     object-fit: scale-down;
 }
 
-@media (min-aspect-ratio: 4/3) {
+/* @media (min-aspect-ratio: 4/3) {
     #videoBg>video {
         height: auto;
         top: auto;
@@ -55,7 +54,6 @@ body {
     }
 }
 
-/* Demo  Classes */
 nav {
     position: fixed;
     width: 100%;
@@ -66,7 +64,6 @@ nav {
     z-index: 2;
 }
 
-/* Center content with flexbox container */
 .flexCon {
     height: 100vh;
     display: flex;
@@ -74,11 +71,10 @@ nav {
     align-items: center;
 }
 
-/* Position the content relative to the flex container  */
 #videoMessage {
     z-index: 1;
     position: relative;
-}
+} */
 
 .play-button-wrapper {
     position: absolute;
